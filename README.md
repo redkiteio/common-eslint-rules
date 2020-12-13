@@ -25,3 +25,7 @@ Programming languages allow achieving the same result through many ways. This is
 1. After all the installations are done, please check your package.json file again and delete the ``eslintConfig`` property, if found there.
 1. Copy the content of ``rules.js`` file in this repo into the rules property of the ``.eslintc.js`` file.
 1. Restart Visual Studio Code and run ``npm start`` again.
+
+## How add a fix-all shortcut
+
+You can also add the ability to fix all issues at once to ``Ctrl + S`` or any other keyboard shortcut. In Visual Studio Code go to ``File > Preferences > Keyboard Shortcuts `` and modify the **ESLint: Fix all auto-fixable problems** option.
