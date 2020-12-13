@@ -1,4 +1,4 @@
-export const rules = {
+const rules = {
     'arrow-parens': [2, 'as-needed'],
     'brace-style': [2, 'stroustrup'],
     'class-methods-use-this': 0,
@@ -16,3 +16,5 @@ export const rules = {
     'react/jsx-props-no-spreading': 0,
     'no-plusplus': [2, { allowForLoopAfterthoughts: true }],
   };
+
+export default rules;
