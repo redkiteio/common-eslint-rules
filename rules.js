@@ -1,3 +1,4 @@
+// v.1.0 (2020-12-14)
 const rules = {
     'arrow-parens': [2, 'as-needed'],
     'brace-style': [2, 'stroustrup'],
