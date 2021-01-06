@@ -1,12 +1,12 @@
 const rules = {
-  // v.1.0 (2020-12-14)
-  'arrow-parens': [2, 'as-needed'],
-  'brace-style': [2, 'stroustrup'],
+  // v.1.1 (2021-01-06)
+  'arrow-parens': [1, 'as-needed'],
+  'brace-style': [1, 'stroustrup'],
   'class-methods-use-this': 0,
-  'func-names': [2, 'always', { generators: 'never' }],
+  'func-names': [1, 'always', { generators: 'never' }],
   'import/prefer-default-export': 0,
-  'react/jsx-one-expression-per-line': [2, { allow: 'single-child' }],
-  'linebreak-style': [2, 'unix'],
+  'react/jsx-one-expression-per-line': [1, { allow: 'single-child' }],
+  'linebreak-style': [1, 'unix'],
   'object-curly-newline': [
     0,
     {
@@ -15,7 +15,7 @@ const rules = {
     },
   ],
   'react/jsx-props-no-spreading': 0,
-  'no-plusplus': [2, { allowForLoopAfterthoughts: true }],
+  'no-plusplus': [1, { allowForLoopAfterthoughts: true }],
 };
 
 export default rules;
