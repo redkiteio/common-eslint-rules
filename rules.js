@@ -1,12 +1,12 @@
 const rules = {
-  // v.1.1 (2021-01-06)
+  // v.1.2 (2021-01-16)
   'arrow-parens': [1, 'as-needed'],
   'brace-style': [1, 'stroustrup'],
   'class-methods-use-this': 0,
   'func-names': [1, 'always', { generators: 'never' }],
   'import/prefer-default-export': 0,
   'react/jsx-one-expression-per-line': [1, { allow: 'single-child' }],
-  'linebreak-style': [1, 'unix'],
+  'linebreak-style': 0,
   'object-curly-newline': [
     0,
     {
